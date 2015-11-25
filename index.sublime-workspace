@@ -1,0 +1,282 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"asd",
+				"aside	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: tag",
+				"Package Control: Install Package"
+			],
+			[
+				"Tag",
+				"Code Folding: Fold Tag Attributes"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"div.asdasd",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Работа/Деловые мелочи/site/index.html",
+		"/D/Работа/Деловые мелочи/site/css/reset.css",
+		"/D/Работа/Деловые мелочи/site/css/style.css",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp32096/httpdocs/portfolio.php",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp36199/httpdocs/img/examples/beiskenov.jpg",
+		"/D/Работа/IDG/site/css/slide.css",
+		"/D/Работа/IDG/site/js/app.js",
+		"/D/Работа/IDG/site/css/style.css",
+		"/D/Работа/IDG/site/index.html",
+		"/D/Работа/IDG/site/css/reset.css",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp04747/httpdocs/app/webroot/css/style.css",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp57270/httpdocs/app/View/Pages/index.ctp",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp57958/httpdocs/app/View/Pages/home.ctp",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp58702/httpdocs/app/View/Main/index.ctp",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp58437/httpdocs/app/View/Layouts/index.ctp",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp13796/httpdocs/gallery.html",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp52862/httpdocs/index.html",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp13133/httpdocs/gallery_2lvl.html",
+		"/C/Users/Nurzhan/AppData/Local/Temp/scp14292/httpdocs/css/style.css",
+		"/C/OpenServer/domains/samruk.loc/app/View/News/view.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/Controller/CategoriesController.php",
+		"/C/OpenServer/domains/samruk.loc/app/Controller/ProductsController.php",
+		"/C/OpenServer/domains/samruk.loc/app/View/Categories/view.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/View/Products/index.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/View/Categories/index.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/Config/routes.php",
+		"/C/OpenServer/domains/samruk.loc/app/View/Layouts/index.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/View/Products/view.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/View/Categories/admin_edit.ctp",
+		"/C/OpenServer/domains/eee.loc/app/View/News/index.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/View/News/index.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/View/Layouts/default.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/Model/Category.php",
+		"/C/OpenServer/domains/samruk.loc/app/View/Categories/admin_add.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/View/Categories/admin_index.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/Model/Category.html",
+		"/C/OpenServer/domains/samruk.loc/app/Controller/PagesController.php",
+		"/C/OpenServer/domains/samruk.loc/app/View/Pages/index.ctp",
+		"/C/OpenServer/domains/samruk.loc/app/Model/News.php",
+		"/C/Users/Nurzhan/Desktop/samruk.loc (1)/samruk.loc/news.html",
+		"/C/Users/Nurzhan/Desktop/samruk.loc (1)/samruk.loc/news_sec.html",
+		"/D/Универ/Diplom site/css/reset.css",
+		"/D/Универ/Diplom site/css/style.css",
+		"/C/OpenServer/domains/eee.loc/app/View/Services/admin_add.ctp",
+		"/C/OpenServer/domains/eee.loc/app/View/Services/admin_index.ctp",
+		"/C/OpenServer/domains/eee.loc/app/View/Projects/admin_index.ctp",
+		"/C/OpenServer/domains/eee.loc/app/View/Products/admin_index.ctp",
+		"/C/OpenServer/domains/eee.loc/app/View/News/admin_index.ctp",
+		"/C/OpenServer/domains/eee.loc/app/View/Reviews/admin_index.ctp",
+		"/C/OpenServer/domains/eee.loc/app/View/Pages/index.ctp",
+		"/C/OpenServer/domains/eee.loc/app/View/Services/index.ctp",
+		"/D/Универ/Diplom site/index.html",
+		"/D/Работа/Kazfashion/site/css/slide.css",
+		"/D/Работа/Kazfashion/site/css/style.css",
+		"/D/Работа/Kazfashion/site/css/reset.css",
+		"/D/Работа/Kazfashion/site/index.html",
+		"/C/OpenServer/domains/dmsh.loc/app/View/Pages/admin_index.ctp",
+		"/D/Работа/комфорт/site/index.html",
+		"/D/Работа/комфорт/site/css/slide.css",
+		"/D/Работа/комфорт/site/css/reset.css",
+		"/D/Работа/комфорт/site/css/style.css",
+		"/C/Users/Nurzhan/Desktop/цез.txt",
+		"/C/Users/Nurzhan/Desktop/podryad.txt",
+		"/C/Users/Nurzhan/Desktop/dmsh.txt",
+		"/D/Работа/beisk/beiskenov/app/View/Main/index.ctp",
+		"/C/OpenServer/domains/podryad.loc/web/themes/podryad/uslovia.html.txt",
+		"/D/Работа/beisk/beiskenov/app/View/Abouts/index.ctp",
+		"/D/Работа/комфорт/site/js/Новый текстовый документ.txt",
+		"/D/Работа/st-catel/www/css/style.css",
+		"/D/Работа/st-catel/www/css/jquery.fancybox.css",
+		"/D/Работа/st-catel/www/thank_you _page.html",
+		"/D/Работа/st-catel/www/404.html",
+		"/C/OpenServer/domains/podryad.loc/web/themes/podryad/static/css/slick.css.txt",
+		"/D/Работа/podryad/Новый текстовый документ.txt",
+		"/D/Работа/st-catel/www/index.html",
+		"/D/Работа/школа/site/index.html",
+		"/C/Users/Nurzhan/Desktop/Новый текстовый документ.txt",
+		"/D/Работа/школа/site/css/style.css",
+		"/D/Работа/школа/site/css/reset.css",
+		"/D/Работа/школа/site/css/slide.css",
+		"/D/Работа/школа/site/gallery.html",
+		"/D/Работа/школа/site/contact.html",
+		"/D/Работа/asiacentral/site/projects_2lvl.html",
+		"/D/Работа/asiacentral/template/projects.html",
+		"/D/Работа/asiacentral/bk/index.html",
+		"/D/Работа/asiacentral/site/index.html",
+		"/D/Работа/pizzalif/site/css/slick.css",
+		"/D/Работа/pizzalif/site/css/style.css",
+		"/D/Работа/pizzalif/site/js/app.js",
+		"/D/Работа/pizzalif/site/index.html",
+		"/D/Работа/asiacentral/site/projects.html",
+		"/C/Users/Nurzhan/Desktop/Test Sub/style.css",
+		"/C/Users/Nurzhan/Desktop/Test Sub/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"HelveticaNeueCyr-Light",
+			"News",
+			".logo {\n    float: left;\n    margin-right: 50px;",
+			".vibor_title {\n    position: absolute;\n    /* padding: 0 40px; */\n    background-color: rgba(255, 255, 255, 0);\n    /* display: inline-block; */\n    font-family: \"Reforma\";\n    font-size: 36px;\n    color: #fff;\n    top: -17px;\n    text-transform: uppercase;\n    left: 0;\n    right: 0;\n    margin: 0 auto;\n}",
+			"tag"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Category"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

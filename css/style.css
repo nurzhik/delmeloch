@@ -1,0 +1,311 @@
+
+/* font-family: "Calibri"; */
+@font-face {
+    font-family: "Calibri";
+    src: url("../fonts/Calibri/Calibri.eot");
+    src: url("../fonts/Calibri/Calibri.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Calibri/Calibri.woff") format("woff"),
+    url("../fonts/Calibri/Calibri.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Calibri-Bold";
+    src: url("../fonts/Calibri-Bold/Calibri-Bold.eot");
+    src: url("../fonts/Calibri-Bold/Calibri-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Calibri-Bold/Calibri-Bold.woff") format("woff"),
+    url("../fonts/Calibri-Bold/Calibri-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "Helvetica-Bold"; */
+@font-face {
+    font-family: "Helvetica-Bold";
+    src: url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.eot");
+    src: url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "HelveticaNeueCyr-Light"; */
+@font-face {
+    font-family: "Helvetica-Light";
+    src: url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.eot");
+    src: url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.woff") format("woff"),
+    url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Helvetica-Roman";
+    src: url("../fonts/HelveticaNeueCyr-Roman/HelveticaNeueCyr-Roman.eot");
+    src: url("../fonts/HelveticaNeueCyr-Roman/HelveticaNeueCyr-Roman.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Roman/HelveticaNeueCyr-Roman.woff") format("woff"),
+    url("../fonts/HelveticaNeueCyr-Roman/HelveticaNeueCyr-Roman.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*header*/
+.top_line {
+    height: 35px;
+    background-color: #282828;
+}
+.head {
+    padding: 35px 0;
+    overflow: hidden;
+    position: relative;
+}
+.logo {
+    float: left;
+}
+
+.head_text {
+    float: left;
+    font-family: "Helvetica-Bold";
+    font-size: 22px;
+    color: #bf0000;
+    margin-left: 66px;
+}
+.head_text span {
+    color: #2e50cb;
+}
+.head_contact {
+    float: right;
+    overflow: hidden;
+    width: 302px;
+}
+.head_contact_item {
+    line-height: 22px;
+    font-family: "Helvetica-Light";
+    font-size: 16px;
+    color: #282828;
+    margin-bottom: 15px;
+}
+.head_contact_item.address {
+    line-height: 17px;
+}
+.head_contact_item::before {
+    position: relative;
+    display: block;
+    margin: auto;
+    content: "";
+    float: left;
+    width: 22px;
+    height: 22px;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.mail::before {
+    background-position: 0px -38px;
+}
+.address::before {
+    background-position: 0px -76px;
+    height: 33px;
+}
+.head_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/*menu*/
+.menu_container {
+    background-image: url(../img/menu_bg.jpg);
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.menu_footer {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.menu li {
+    float: left;
+    margin-right: 10px;
+}
+.menu li a {
+    font-family: "Helvetica-Light";
+    font-size: 18px;
+    color: #fff;
+    line-height: 20px;
+    padding: 15px 12px;
+    display: block;
+}
+.menu li a::before {
+    position: relative;
+    display: block;
+    margin: auto;
+    content: "";
+    float: left;
+    width: 2px;
+    height: 38px;
+    background-image: url(../img/menu_line.jpg);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+.menu li a:hover {
+    background-color: #ba0000;
+}
+.active{
+    background-color: #ba0000;
+}
+/*menu end*/
+/*header end*/
+/*content*/
+.container {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.content {
+    width: 680px;
+    float: left;
+}
+.content p {
+    font-family: "Calibri";
+    color: #282828;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 18px;
+}
+
+/*partners*/
+.partners {
+    margin-top: 40px;
+}
+.partners_item {
+    float: left;
+    vertical-align: middle;
+    line-height: 62px;
+    height: 49px;
+    margin-bottom: 25px;
+    margin-right: 32px;
+}
+.partners_item:nth-child(4n) {
+    margin-right: 0px;
+}
+.partners {
+    margin-top: 40px;
+    clear: both;
+    overflow: hidden;
+}
+/*partners end*/
+/*side_bar*/
+.side_bar {
+    float: right;
+    width: 277px;
+}
+.side_bar img {
+    margin-bottom: 25px;
+}
+.side_bar_list_item {
+    margin-bottom: 25px;
+}
+.side_bar_list_item a {
+    font-family: "Calibri";
+    line-height: 21px;
+    color: #282828;
+}
+.side_bar_list_item a:hover{
+    text-decoration:underline;
+}
+/*side_bar end*/
+/*content end*/
+/*footer*/
+footer {
+    clear: both;
+    padding: 20px 0px;
+}
+.menu_footer li {
+    float: left;
+    margin-right: 8px;
+}
+.menu_footer li a {
+    color: #525252;
+    font-size: 16px;
+    font-family: "Calibri";
+    line-height: 18px;
+    float: left;
+    margin-right: 8px;
+}
+.menu_footer li a:hover {
+    text-decoration: underline;
+}
+.developed {
+    font-family: "Calibri";
+    color: #525252;
+}
+.developed a {
+    color: #525252;
+}
+.developed a:hover {
+    text-decoration:underline;
+}
+/*footer end*/
+.button {
+    width: 160px;
+    height: 32px;
+    line-height: 32px;
+    background-image: linear-gradient(180deg, rgba(74, 103, 209, 12) 16px, rgba(46, 80, 203, 16) 50%);
+    font-size: 16px;
+    font-family: "Helvetica-Light";
+    text-align: center;
+    color: #fff;
+}
+.button.rekvizit {
+    margin: 30px 0;
+}
+.title {
+    font-family: "Helvetica-Roman";
+    color: #303030;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+.advantages {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.advantages_item {
+    width: 25%;
+    text-align: center;
+    display: none;
+    float: left;
+}
+.advantages_item a {
+    display: block;
+    color: #303030;
+    font-family: "Helvetica-Roman";
+    margin-top: 10px;
+}
+/*оперативная полиграфия*/
+.operational_polygraphy_item {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.title.polygraphy {
+    margin: 14px 0px 20px;  
+    overflow: hidden;
+    display: inline-block;
+}
+.polygraphy_img {
+    float: left;
+    margin-right: 35px;
+}
+.kanc_img {
+    margin: 35px 0;
+}
+.side_bar_list_item.info a {
+    text-decoration: underline;
+}
+.side_bar_list_item.info a:hover {
+    text-decoration: none;
+}
+.title_info {
+    font-family: "Calibri-Bold";
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+}
